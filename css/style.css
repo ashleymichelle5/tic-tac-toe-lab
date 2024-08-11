@@ -1,0 +1,46 @@
+body {
+    background-color: blanchedalmond;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+  }
+  
+  .sqr {
+    width: 75px;
+    height: 75px;
+    border: 3px solid purple;
+    font-size: 64px;
+    text-align: center;
+    box-shadow: 0 0 0 3px purple;
+    cursor: pointer;
+  }
+ 
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: indianred;
+}
+h2 {
+    color: indianred;
+    text-align: center;
+    font-size: 45px;
+
+}
+
+button{
+    background-color: indianred;
+    border-radius: 5px;
+    font-weight: bold white;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+   
+}
